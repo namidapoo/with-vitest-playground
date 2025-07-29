@@ -5,9 +5,14 @@
     "test": "turbo run test",
     "test:projects": "vitest run",
     "test:projects:watch": "vitest --watch",
-    "view-report": "turbo run view-report"
+    "view-report": "turbo run view-report",
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "check": "biome check --write ."
   },
   "devDependencies": {
+    "@biomejs/biome": "2.1.2",
     "@repo/vitest-config": "workspace:*",
     "prettier": "^3.5.0",
     "turbo": "^2.5.5",
