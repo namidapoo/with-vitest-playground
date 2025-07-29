@@ -2,6 +2,7 @@
 	"name": "vitest",
 	"private": true,
 	"scripts": {
+		"build": "turbo run build",
 		"test": "turbo run test",
 		"test:projects": "vitest run",
 		"test:projects:watch": "vitest --watch",
