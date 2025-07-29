@@ -7,6 +7,7 @@
 	"scripts": {
 		"build": "tsc",
 		"watch": "tsc -w",
+		"check-types": "tsc --noEmit",
 		"test": "vitest run",
 		"cdk": "cdk"
 	},
